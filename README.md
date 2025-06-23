@@ -9,9 +9,9 @@ Usage:
 
 Arguments:
     --maf (str): The minimum allele frequency for filtering haplotypes. 
-                 Choices are '0', '0.01', '0.02', '0.05'. Default is '0.05'.
-    -a, --gff (str): The GFF file containing the gene annotation. when refer 6K rice haplotype, it should be os1_r7.gff.
-    -r, --region (str): The region of the gene to be analyzed in the format `chr:start-end`.
+                 Choices are '0', '0.01', '0.02', '0.05'. The default is '0.05'.
+    -a, --gff (str): The GFF file containing the gene annotation. When referring to 6K rice haplotype, it should be os1_r7.gff.
+    -r, --region (str): The region of the gene to be analysed in the format `chr:start-end`.
     -i, --gene_id (str): The gene ID for the target region, which should be provided with the GFF file.
     -u, --upstream (int): The upstream distance of the gene. Default is 0.
     -d, --downstream (int): The downstream distance of the gene. Default is 0.
